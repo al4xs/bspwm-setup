@@ -111,9 +111,6 @@ Pra que serve a pasta "go/bin" na minha home?
 
 `ls ~/go/bin/`  Tudo que voce instalar via go vai pra essa pasta, e voce pode chamar de qualquer lugar do terminal
 
-
-
-[![Instagram Badge](https://img.shields.io/badge/-@osungjinwoo-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=instagram&logoColor=white&link=https://instagram.com/al4xs)](https://instagram.com/code.allan) 
 ---
 
 ## 📝 Licença
