@@ -15,21 +15,16 @@ Basta seguir os comandos abaixo para o auto-install e ele fará tudo pra você!
 1.- Faca uso do script como usuario comum e nao administrativo:
 
 ```bash
-git clone https://github.com/al4xs/kaliSung
+git clone https://github.com/al4xs/bspwm-setup
 
-cd kaliSung
+cd bspwm-setup
 
-chmod u+x kali.sh root.sh;./kali.sh;sudo ./root.sh
+chmod +x setup.sh root.sh;./setup.sh;sudo ./root.sh
 ```
-
-Este script foi desenvolvido para funcionar no kali linux.
 
 Terminou o script? Faça logout. Na tela de login no seu lado direito superior proximo ao selecionar idioma, selecione BSPWM e realize o login novamente.
 
 ![Picture 1](preview/demo0.png)
-
-- Esse é de longe o meu bspwm atual e favorito, se estiver utilizando, tira uma foto e me marca no instagram! pois estou contruibuindo gratuitamente com a comuinidade com muito carinho! #TMJ
-Mantenha os credito a mim! =)
 
 Abaixo, uma pequena demonstração de como seu ambiente vai ficar:
 
