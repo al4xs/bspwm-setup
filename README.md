@@ -1,14 +1,12 @@
-Script criado para kali linux
-
 Execute
 
 ```bash
-chmod u+x kali.sh root.sh;./kali.sh;sudo ./root.sh
+chmod +x setup.sh root.sh;./setup.sh;sudo ./root.sh
 ```
 
 # Bspwm - NSA THEME
 
-BSPWM feito para kali linux, perfeito para jogar ctf e trabalhar.
+BSPWM perfeito para jogar ctf e trabalhar.
 
 Basta seguir os comandos abaixo para o auto-install e ele fará tudo pra você!
 
