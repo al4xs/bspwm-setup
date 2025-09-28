@@ -40,11 +40,11 @@ Abaixo, uma pequena demonstração de como seu ambiente vai ficar:
 
 ********************** Atalhos UTEIS para seu novo System ****************************
 
-`Windows + ENTER` = abre o terminal
+`ctrl + shift + t` = abre o terminal
 
 `Windows + d` = abre o menu principal
 
-`Windows + w` = fecha abas
+`ctrl + w` = fecha o terminal 
 
 `Windows + r` = faz um reload no sistema
 
@@ -61,7 +61,7 @@ Abaixo, uma pequena demonstração de como seu ambiente vai ficar:
 `CTRL + Windows + Alt + Backspace` = cancela uma workspace
 
 
-obs: Todos os atalhos pré-definidos você pode encontrar em: ~/.config/sxhkd/sxhkdrc
+obs: Todos os atalhos pré-definidos você pode encontrar em:  ~/.config/sxhkd/sxhkdrc
 
 ---------------------- comandos no terminal ----------------------
 
@@ -113,19 +113,7 @@ Pra que serve a pasta "go/bin" na minha home?
 
 
 
-Quaisquer dúvidas, fale comigo!
-## 🦸 Autor
-
- <a href="https://github.com/oosungjinwoo">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/40411471?v=4" width="100px;" alt=""/>
- <br />
- <sub><b>MICHAEL ETH1C4L H4CK3R</b></sub></a> <a href="http://osungjinwoo.github.io/" title="Github Personal Blog"> 🚀</a>
- <br />
-
-[![Instagram Badge](https://img.shields.io/badge/-@osungjinwoo-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=instagram&logoColor=white&link=https://instagram.com/michaelferral4xs)](https://instagram.com/osungjinwoo) 
-[![Linkedin Badge](https://img.shields.io/badge/-Michael-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/michael-al4xs/)](https://www.linkedin.com/in/michael-al4xs/) 
-[![protonmail Badge](https://img.shields.io/badge/-@al4xs@protonmail.com-c14438?style=flat-square&logo=protonmail&logoColor=white&link=mailto:al4xs@protonmail.com)](mailto:al4xs@protonmail.com)
-
+[![Instagram Badge](https://img.shields.io/badge/-@osungjinwoo-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=instagram&logoColor=white&link=https://instagram.com/al4xs)](https://instagram.com/code.allan) 
 ---
 
 ## 📝 Licença
