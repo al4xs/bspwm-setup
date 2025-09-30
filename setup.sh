@@ -591,6 +591,5 @@ if [[ $quest == "y" || $quest == "yes" || $quest == "Y" ]]; then
 fi
 }
 
-# CALLS THE SCRIPT
 reset
 setup
