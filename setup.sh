@@ -1,7 +1,4 @@
-#!/bin/bash
-
-
-
+#!/bin/bash 
 
 # COLOR USE THE SCRIPT
 Black='\033[1;30m'
@@ -565,34 +562,23 @@ if [[ $quest == "y" || $quest == "yes" || $quest == "Y" ]]; then
 		sleep 2
                 chmod +x ${LOCALPATH}/.themes/PF/scripts/*.sh
 		echo ""
+		sleep 2
+		
+		echo echo -e "${White} [${Blue}i${White}] Instalando/Atualizando configuração do Neovim"
+		# Remove config antiga se existir
+		rm -rf ${LOCALPATH}/.config/nvim
+		# Copia a nova config do diretório do script
+		cp -r ${RUTE}/nvim ${LOCALPATH}/.config/nvim 
+		echo -e "${White} [${Blue}+${White}] Configuração do Neovim instalada com sucesso"
 		echo -e "${White} [${Blue}i${White}] Step 11 installing bspwm scripts"
+	
+		echo ""
 		sleep 2
 		cd ${RUTE}
 		cp -r scripts ${LOCALPATH}/.scripts
 		chmod +x ${LOCALPATH}/.scripts/*.sh
 		chmod +x ${LOCALPATH}/.scripts/wall-scripts/*.sh
 		echo ""
-		echo -e "${White} [${Blue}i${White}] Step 12 Installing the powerlevel10k, fzf, sudo-plugin, and others for the normal user"
-		sleep 2
-		echo ""
-		cd ${RUTE}
-		rm -rf ~/.zshrc; rm -rf ~/.p10k.zsh
-		cp -r .zshrc .p10k.zsh ~/
-                sudo rm -rf /usr/share/zsh-sudo/
-		cd /usr/share ; sudo mkdir -p zsh-sudo
-		cd zsh-sudo ; sudo wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/plugins/sudo/sudo.plugin.zsh 2>/dev/null
-		rm -rf ~/.powerlevel10k
-		cd ; git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.powerlevel10k 2>/dev/null
-		echo ""
-		sudo rm -rf ${LOCALPATH}/.scripts/shell-color-scripts
-		cd ${LOCALPATH}/.scripts ; git clone https://github.com/charitarthchugh/shell-color-scripts.git 2>/dev/null
-		chmod +x ${LOCALPATH}/.scripts/shell-color-scripts/colorscripts/*
-		sudo cp -r shell-color-scripts /opt/
-		cd
-		git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf 2>/dev/null
-		~/.fzf/install
-		echo ""
-
 		echo -e "${White} [${Blue}i${White}] Install pipes"
 		sleep 2
 		cd ${LOCALPATH}/.scripts ; rm -rf pipe*
